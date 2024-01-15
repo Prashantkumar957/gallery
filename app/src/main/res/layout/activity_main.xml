@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/tool"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="25dp"
+    >
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ru">
+    </ImageView>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+         android:src="@drawable/pu">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cu">
+        >
+
+    </ImageView>
+
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:src="@drawable/zu">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mu">
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:src="@drawable/tu">
+        </ImageView>
+        >
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:src="@drawable/su">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:src="@drawable/vu">
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:src="@drawable/fu">
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
