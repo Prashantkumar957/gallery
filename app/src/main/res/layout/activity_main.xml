@@ -6,94 +6,229 @@
     >
     <include layout="@layout/tool"/>
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:layout_marginTop="25dp"
-    >
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="200dp"
-        android:src="@drawable/ru">
-    </ImageView>
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="200dp"
-         android:src="@drawable/pu">
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
 
-    </ImageView>
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="200dp"
-        android:src="@drawable/cu">
-        >
+     >
 
-    </ImageView>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="25dp"
+              android:textSize="21dp"
+              android:text="Today"
+              android:layout_gravity="center">
 
-
-
-
-</LinearLayout>
+          </TextView>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal"
+             android:layout_marginTop="20dp"
+             >
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_marginTop="25dp"
-        >
+             <ImageView
+                 android:layout_width="139dp"
+                 android:layout_height="match_parent"
+                 android:src="@drawable/ru">
 
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="200dp"
-            android:src="@drawable/zu">
+             </ImageView>
 
-        </ImageView>
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="200dp"
-            android:src="@drawable/mu">
-            >
+             <ImageView
+                 android:layout_width="123dp"
+                 android:layout_height="match_parent"
+                 android:src="@drawable/pu">
 
-        </ImageView>
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="200dp"
-            android:src="@drawable/tu">
-        </ImageView>
-        >
+             </ImageView>
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/cu">
 
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_marginTop="25dp"
-        >
-
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="200dp"
-            android:src="@drawable/su">
-
-        </ImageView>
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="200dp"
-            android:src="@drawable/vu">
-            >
-
-        </ImageView>
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="200dp"
-            android:src="@drawable/fu">
-        </ImageView>
+             </ImageView>
 
 
-    </LinearLayout>
+         </LinearLayout>
 
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal"
+             android:layout_marginTop="25dp"
+             >
+
+             <ImageView
+                 android:layout_width="135dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/zu">
+
+             </ImageView>
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/vu">
+
+             </ImageView>
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/tu"></ImageView>
+
+
+
+         </LinearLayout>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="25dp"
+             android:textSize="21dp"
+             android:text="16 Jan 2024"
+             android:layout_gravity="center">
+
+         </TextView>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal"
+             android:layout_marginTop="25dp"
+             >
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/su"/>
+
+
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/mu" />
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/fu"/>
+
+
+         </LinearLayout>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="25dp"
+             android:textSize="21dp"
+             android:text="1 Jan 2024"
+             android:layout_gravity="center">
+         </TextView>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal"
+             android:layout_marginTop="25dp"
+             >
+
+             <ImageView
+                 android:layout_width="139dp"
+                 android:layout_height="match_parent"
+                 android:src="@drawable/ru">
+
+             </ImageView>
+
+             <ImageView
+                 android:layout_width="123dp"
+                 android:layout_height="match_parent"
+                 android:src="@drawable/pu">
+
+             </ImageView>
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/cu">
+
+
+             </ImageView>
+
+
+         </LinearLayout>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal"
+             android:layout_marginTop="25dp"
+             >
+
+             <ImageView
+                 android:layout_width="135dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/zu">
+
+             </ImageView>
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/vu">
+
+             </ImageView>
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/tu"></ImageView>
+
+
+
+         </LinearLayout>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="25dp"
+             android:textSize="21dp"
+             android:text="Last Year"
+             android:layout_gravity="center">
+         </TextView>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal"
+             android:layout_marginTop="25dp"
+             >
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/su"/>
+
+
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/mu" />
+
+             <ImageView
+                 android:layout_width="140dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/fu"/>
+
+
+         </LinearLayout>
+
+
+     </LinearLayout>
+ </ScrollView>
 
 </LinearLayout>
